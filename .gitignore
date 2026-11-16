@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+cache_lee2019/
+mne_data/
+*.npz
+.ipynb_checkpoints/

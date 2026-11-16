@@ -1,0 +1,62 @@
+######## cron_2a — 9 sujeitos | IC95 = t pareado sobre sujeitos | valores em pontos percentuais (pp)
+
+F1  Transferência − intra, mesmo nº de trials do usuário novo (Holm sobre a família)
+  22 canais   20 trials: Δ  +0.5 [ -6.0,  +7.1]  transf melhor em 5/9  p 0.5469  p_Holm 1.0000
+  22 canais   40 trials: Δ  +1.2 [ -5.2,  +7.5]  transf melhor em 6/9  p 0.3438  p_Holm 1.0000
+  22 canais   80 trials: Δ  -1.6 [ -7.1,  +3.9]  transf melhor em 3/9  p 0.6406  p_Holm 1.0000
+  8 canais    20 trials: Δ  +1.0 [ -5.9,  +7.9]  transf melhor em 6/9  p 0.4961  p_Holm 1.0000
+  8 canais    40 trials: Δ  -0.5 [ -8.2,  +7.2]  transf melhor em 4/9  p 0.6172  p_Holm 1.0000
+  8 canais    80 trials: Δ  -1.5 [ -6.1,  +3.1]  transf melhor em 4/9  p 0.5938  p_Holm 1.0000
+  3 canais    20 trials: Δ  +0.5 [ -3.3,  +4.4]  transf melhor em 6/9  p 0.3555  p_Holm 1.0000
+  3 canais    40 trials: Δ  -1.1 [ -7.8,  +5.7]  transf melhor em 6/9  p 0.8438  p_Holm 1.0000
+  3 canais    80 trials: Δ  -2.7 [ -9.1,  +3.7]  transf melhor em 3/9  p 0.5469  p_Holm 1.0000
+
+F2  Equivalência: transf com 40 trials vs intra com calibração completa (TOST ±5 pp; IC90 vs ±2 pp)
+  22 canais  Δ  -5.2 IC95 [-11.6,  +1.1] IC90 [-10.3,  -0.2]  p_TOST(±5) 0.5348 → inconclusivo  | IC90 fora de ±2 pp
+  8 canais   Δ  -3.7 IC95 [-10.0,  +2.6] IC90 [ -8.8,  +1.4]  p_TOST(±5) 0.3242 → inconclusivo  | IC90 fora de ±2 pp
+  3 canais   Δ  -2.8 IC95 [ -9.8,  +4.2] IC90 [ -8.4,  +2.9]  p_TOST(±5) 0.2419 → inconclusivo  | IC90 fora de ±2 pp
+
+F3  Critérios de parada vs orçamento fixo de 40 trials (mesmas condições; Holm sobre a família)
+  22 canais  intra  preq   Δacc  +1.7 [ -1.9,  +5.3]  Δtrials  +4.9  ρ oráculo +0.13 [-0.93, +0.88]  p 0.500  p_Holm 1.000
+  22 canais  intra  cv     Δacc  -1.2 [ -4.9,  +2.6]  Δtrials  -5.8  ρ oráculo -0.04 [-0.88, +0.81]  p 0.414  p_Holm 1.000
+  22 canais  intra  extrap Δacc  -0.0 [ -4.3,  +4.3]  Δtrials +16.9  ρ oráculo -0.05 [-0.86, +0.81]  p 1.000  p_Holm 1.000
+  22 canais  transf preq   Δacc  -1.5 [ -3.1,  +0.1]  Δtrials  +0.9  ρ oráculo +0.10 [-0.55, +0.85]  p 0.031  p_Holm 0.812
+  22 canais  transf cv     Δacc  -1.3 [ -2.8,  +0.2]  Δtrials  -9.8  ρ oráculo +0.19 [-0.57, +0.89]  p 0.109  p_Holm 1.000
+  22 canais  transf extrap Δacc  -1.2 [ -3.3,  +1.0]  Δtrials  -4.0  ρ oráculo -0.01 [-0.73, +0.77]  p 0.266  p_Holm 1.000
+  22 canais  adapt  preq   Δacc  -1.9 [ -8.9,  +5.2]  Δtrials  +0.4  ρ oráculo +0.04 [-0.82, +0.76]  p 1.000  p_Holm 1.000
+  22 canais  adapt  cv     Δacc  +0.0 [ -3.2,  +3.2]  Δtrials -10.2  ρ oráculo -0.16 [-0.75, +0.56]  p 0.781  p_Holm 1.000
+  22 canais  adapt  extrap Δacc  -0.2 [ -3.4,  +3.0]  Δtrials  +0.9  ρ oráculo -0.11 [-0.73, +0.67]  p 0.703  p_Holm 1.000
+  8 canais   intra  preq   Δacc  +0.8 [ -1.3,  +3.0]  Δtrials +11.1  ρ oráculo +0.29 [-0.49, +0.87]  p 0.438  p_Holm 1.000
+  8 canais   intra  cv     Δacc  +0.4 [ -2.2,  +3.0]  Δtrials -10.7  ρ oráculo -0.07 [-0.81, +0.71]  p 0.617  p_Holm 1.000
+  8 canais   intra  extrap Δacc  +1.3 [ -0.7,  +3.4]  Δtrials +10.2  ρ oráculo +0.01 [-0.72, +0.64]  p 0.203  p_Holm 1.000
+  8 canais   transf preq   Δacc  +1.3 [ -0.8,  +3.4]  Δtrials  +7.6  ρ oráculo +0.72 [+0.32, +0.90]  p 0.219  p_Holm 1.000
+  8 canais   transf cv     Δacc  +0.5 [ -1.6,  +2.5]  Δtrials  -9.3  ρ oráculo +0.00 [-0.66, +0.87]  p 0.844  p_Holm 1.000
+  8 canais   transf extrap Δacc  +0.5 [ -1.0,  +1.9]  Δtrials  -1.3  ρ oráculo -0.10 [-0.65, +0.75]  p 0.375  p_Holm 1.000
+  8 canais   adapt  preq   Δacc  +1.2 [ -0.4,  +2.9]  Δtrials  +4.0  ρ oráculo +0.50 [-0.25, +0.97]  p 0.125  p_Holm 1.000
+  8 canais   adapt  cv     Δacc  +1.7 [ -0.9,  +4.3]  Δtrials -11.1  ρ oráculo -0.07 [-0.74, +0.74]  p 0.047  p_Holm 1.000
+  8 canais   adapt  extrap Δacc  +2.3 [ -0.1,  +4.8]  Δtrials  -0.9  ρ oráculo -0.07 [-0.74, +0.74]  p 0.008  p_Holm 0.211
+  3 canais   intra  preq   Δacc  +0.5 [ -1.8,  +2.7]  Δtrials  +6.2  ρ oráculo +0.18 [-0.57, +0.83]  p 0.844  p_Holm 1.000
+  3 canais   intra  cv     Δacc  +2.2 [ -0.7,  +5.2]  Δtrials  -5.3  ρ oráculo +0.21 [-0.60, +0.92]  p 0.125  p_Holm 1.000
+  3 canais   intra  extrap Δacc  -0.2 [ -6.9,  +6.6]  Δtrials  +4.9  ρ oráculo +0.11 [-0.58, +0.87]  p 0.945  p_Holm 1.000
+  3 canais   transf preq   Δacc  +0.0 [ -1.1,  +1.1]  Δtrials  +9.3  ρ oráculo -0.42 [-0.81, -0.30]  p 0.922  p_Holm 1.000
+  3 canais   transf cv     Δacc  +1.0 [ -0.1,  +2.1]  Δtrials -11.1  ρ oráculo -0.37 [-0.77, -0.25]  p 0.094  p_Holm 1.000
+  3 canais   transf extrap Δacc  +0.8 [ -0.9,  +2.6]  Δtrials  -4.0  ρ oráculo -0.24 [-0.61, -0.12]  p 0.438  p_Holm 1.000
+  3 canais   adapt  preq   Δacc  +3.2 [ -2.5,  +8.8]  Δtrials  +4.4  ρ oráculo -0.11 [-0.64, +0.57]  p 0.219  p_Holm 1.000
+  3 canais   adapt  cv     Δacc  +0.5 [ -3.7,  +4.6]  Δtrials  -8.9  ρ oráculo -0.07 [-0.69, +0.75]  p 0.688  p_Holm 1.000
+  3 canais   adapt  extrap Δacc  +3.5 [ -2.8,  +9.8]  Δtrials  +2.2  ρ oráculo +0.15 [-0.50, +0.87]  p 0.438  p_Holm 1.000
+  → ρ com o oráculo: mediana -0.01; 23/27 combinações com |ρ| < 0,3
+
+F4  Poucos canais: transf com calibração completa vs 22 canais (TOST ±5 pp)
+  8 canais   transf Δ  -2.2 [ -5.3,  +0.8]  p_Wilcoxon 0.1758  p_TOST(±5) 0.0356 → EQUIVALENTE
+  8 canais   intra  Δ  -3.5 [ -7.0,  -0.1]  p_Wilcoxon 0.0234  p_TOST(±5) 0.1778 → inconclusivo
+  3 canais   transf Δ  -8.3 [-11.1,  -5.4]  p_Wilcoxon 0.0039  p_TOST(±5) 0.9846 → inconclusivo
+  3 canais   intra  Δ  -9.5 [-14.0,  -5.0]  p_Wilcoxon 0.0039  p_TOST(±5) 0.9755 → inconclusivo
+
+F5  Limite estatístico do sinal de parada (por sujeito, entre 32 e 48 trials)
+  22 canais  intra  ganho real/passo  -0.0 pp | oscilação do cv/passo ± 5.9 pp | razão sinal/ruído  0.00 | EP binomial com 40 trials ±6.4 pp
+  22 canais  transf ganho real/passo  +0.5 pp | oscilação do cv/passo ± 3.8 pp | razão sinal/ruído  0.14 | EP binomial com 40 trials ±6.8 pp
+  8 canais   intra  ganho real/passo  +0.5 pp | oscilação do cv/passo ± 5.8 pp | razão sinal/ruído  0.08 | EP binomial com 40 trials ±6.8 pp
+  8 canais   transf ganho real/passo  +0.4 pp | oscilação do cv/passo ± 3.5 pp | razão sinal/ruído  0.10 | EP binomial com 40 trials ±7.0 pp
+  3 canais   intra  ganho real/passo  +0.5 pp | oscilação do cv/passo ± 6.7 pp | razão sinal/ruído  0.07 | EP binomial com 40 trials ±7.3 pp
+  3 canais   transf ganho real/passo  -0.2 pp | oscilação do cv/passo ± 3.4 pp | razão sinal/ruído  0.05 | EP binomial com 40 trials ±7.4 pp
+  → um critério que precisa detectar ganhos de ~2 pp está olhando um sinal dominado por ruído.

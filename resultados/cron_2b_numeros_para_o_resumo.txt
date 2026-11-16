@@ -1,0 +1,32 @@
+DATASET 2b | ordem dos trials de calibração: cron | sujeitos: 9 | trials de teste: 160 | limiar de acaso (p<0,05): 0.562
+Critérios principais a priori: preq/cv eps=0.02 pac=3; extrap eps=0.02
+Wilcoxon pareado por sujeito (n=9)
+
+##### 3 canais — acurácia média na sessão de avaliação por tempo de calibração
+  ~ 1.5 min: intra 0.592 | transf 0.738 | adapt 0.735
+  ~ 2.5 min: intra 0.638 | transf 0.732 | adapt 0.687
+  ~   5 min: intra 0.694 | transf 0.742 | adapt 0.728
+  ~  10 min: intra 0.710 | transf 0.735 | adapt 0.730
+  completa: intra 0.715 | transf 0.736 | adapt 0.736
+  adapt: fração usando transferência no início 0.89, no fim 1.00; maioria passa a usar só o usuário a partir de ~2.0 min
+
+=== 3 canais | intra | acurácia com calibração completa: 0.715
+  fixo_40  ~ 5.0 min (5.0–5.0) | economia  68% | acc 0.694 | Δ -0.022 | pior -0.144 | perda>5pp: 2 | ρ oráculo +nan | p 0.2500
+  fixo_80  ~10.0 min (10.0–10.0) | economia  35% | acc 0.710 | Δ -0.006 | pior -0.075 | perda>5pp: 2 | ρ oráculo +nan | p 0.7422
+  preq     ~ 5.1 min (4.5–7.0) | economia  67% | acc 0.690 | Δ -0.026 | pior -0.144 | perda>5pp: 3 | ρ oráculo +0.27 | p 0.2031
+  cv       ~ 4.2 min (3.0–6.5) | economia  73% | acc 0.691 | Δ -0.024 | pior -0.175 | perda>5pp: 3 | ρ oráculo -0.22 | p 0.4844
+  extrap   ~ 6.8 min (3.0–12.5) | economia  55% | acc 0.720 | Δ +0.005 | pior -0.056 | perda>5pp: 3 | ρ oráculo +0.52 | p 0.9766
+
+=== 3 canais | transf | acurácia com calibração completa: 0.736
+  fixo_40  ~ 5.0 min (5.0–5.0) | economia  68% | acc 0.742 | Δ +0.006 | pior -0.019 | perda>5pp: 0 | ρ oráculo +nan | p 0.3125
+  fixo_80  ~10.0 min (10.0–10.0) | economia  35% | acc 0.735 | Δ -0.001 | pior -0.025 | perda>5pp: 0 | ρ oráculo +nan | p 1.0000
+  preq     ~ 4.9 min (4.5–7.0) | economia  68% | acc 0.741 | Δ +0.005 | pior -0.019 | perda>5pp: 0 | ρ oráculo +nan | p 0.4531
+  cv       ~ 3.8 min (3.0–5.5) | economia  75% | acc 0.738 | Δ +0.002 | pior -0.019 | perda>5pp: 0 | ρ oráculo +nan | p 0.7344
+  extrap   ~ 6.0 min (3.0–12.5) | economia  61% | acc 0.737 | Δ +0.001 | pior -0.006 | perda>5pp: 0 | ρ oráculo +nan | p 0.7500
+
+=== 3 canais | adapt | acurácia com calibração completa: 0.736
+  fixo_40  ~ 5.0 min (5.0–5.0) | economia  68% | acc 0.728 | Δ -0.008 | pior -0.144 | perda>5pp: 1 | ρ oráculo +nan | p 0.7812
+  fixo_80  ~10.0 min (10.0–10.0) | economia  35% | acc 0.730 | Δ -0.006 | pior -0.075 | perda>5pp: 1 | ρ oráculo +nan | p 0.8672
+  preq     ~ 5.1 min (4.5–7.0) | economia  68% | acc 0.728 | Δ -0.008 | pior -0.194 | perda>5pp: 1 | ρ oráculo +0.72 | p 0.1719
+  cv       ~ 4.0 min (3.0–6.5) | economia  74% | acc 0.738 | Δ +0.001 | pior -0.088 | perda>5pp: 1 | ρ oráculo +0.61 | p 0.4375
+  extrap   ~ 5.7 min (3.0–12.0) | economia  62% | acc 0.734 | Δ -0.002 | pior -0.144 | perda>5pp: 1 | ρ oráculo +0.24 | p 0.2656
