@@ -112,3 +112,7 @@ cache, que é o padrão do script (`/content/drive/MyDrive/eamc_lee2019`).
 - LEE, M.-H. et al. EEG dataset and OpenBMI toolbox for three BCI paradigms. *GigaScience*, 8(5), 2019.
 - TANGERMANN, M. et al. Review of the BCI Competition IV. *Frontiers in Neuroscience*, 6, 2012.
 - VAROQUAUX, G. Cross-validation failure: small sample sizes lead to large error bars. *NeuroImage*, 180, 2018.
+
+## Licença
+
+**Todos os direitos reservados (All Rights Reserved)** — veja [`LICENSE`](LICENSE). O código, os resultados e os documentos deste repositório são disponibilizados apenas para consulta acadêmica e verificação da pesquisa; uso, reprodução, modificação ou uso comercial exigem autorização prévia por escrito do autor.
